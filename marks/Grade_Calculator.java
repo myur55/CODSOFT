@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Grade_Calculator {
 
-	public static void main(String[] args) {	//main method
+	public static void main(String[] args) {
 		marks();
 	}
 
-	public static void marks() {				//method
+	public static void marks() {
 		int subCounter = 1;
 		float totalMarks = 0f;
 		float average = 0.00f;
