@@ -7,10 +7,10 @@ public class Number_game {
         Random random = new Random();
         number = random.nextInt(100);
         number = number + 1;
-        System.out.println(number);
+        //System.out.println(number);
         Scanner sc = new Scanner(System.in);
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Guess the Number: ");    
+            System.out.println("Guess the Number from 1 to 100: ");    
             
                 if(sc.hasNextInt()) {
                 	int guess = sc.nextInt();
